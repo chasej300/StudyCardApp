@@ -1,0 +1,32 @@
+{
+  "decks": [
+    {
+      "name": "sfdg",
+      "description": "fdsg",
+      "id": 4
+    },
+    {
+      "name": ".khb",
+      "description": ".,jn.kj",
+      "id": 5
+    },
+    {
+      "name": "sh",
+      "description": "vch",
+      "id": 6
+    },
+    {
+      "name": "fdsfdsfsd",
+      "description": "fsdfds",
+      "id": 7
+    }
+  ],
+  "cards": [
+    {
+      "front": "vcxvcxz",
+      "back": "vcxvcxz",
+      "deckId": 4,
+      "id": 1
+    }
+  ]
+}
