@@ -13,7 +13,6 @@ function Home(){
         setDecks(decks);
         }
         getDecks();
-        console.log("useEffect ran")
     }, []);
 
     const handleCreateNew = () => {

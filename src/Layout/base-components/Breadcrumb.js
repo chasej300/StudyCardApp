@@ -69,7 +69,7 @@ function Breadcrumb() {
         <nav>
             <ol className="breadcrumb">
                 <li className="breadcrumb-item"><Link to="/">Home</Link></li>
-                <li className="breadcrumb-item">{shortTrail ? <li className="breadcrumb-item text-secondary">{trailEnd}</li> : <Link to={`/decks/${params.deckId}`}>{deck.name}</Link>}</li>
+                {shortTrail ? <li className="breadcrumb-item text-secondary">{trailEnd}</li> : <li className="breadcrumb-item text-secondary"><Link to={`/decks/${params.deckId}`}>{deck.name}</Link></li>}
                 {shortTrail ? <></> : <li className="breadcrumb-item text-secondary">{trailEnd}</li>}
             </ol>
             

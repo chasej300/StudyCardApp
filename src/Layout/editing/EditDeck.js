@@ -6,7 +6,7 @@ import DeckForm from "../forms/DeckForm";
 function EditDeck() {
     const history = useHistory();
     const { deckId } = useParams();
-    const [deck, setDeck] = useState({});
+    const [deck, setDeck] = useState({name: "", description: "", id: 0});
     
     useEffect(() => {
         async function getDeck() {
@@ -30,7 +30,6 @@ function EditDeck() {
     }
 
     const handleCancel = () => {
-        history.push("");
         history.push(`/decks/${deckId}`);
     }
 
